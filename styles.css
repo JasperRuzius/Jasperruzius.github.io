@@ -138,9 +138,10 @@ hr{
 
 .gallery{
   display: inline-block;
-  border: 1px solid grey;
+  border: 2px solid grey;
   margin: 5px;
   width: 30%;
+  height: auto;
 }
 .gallery .omschrijving{
   font-family: Merriweather;
