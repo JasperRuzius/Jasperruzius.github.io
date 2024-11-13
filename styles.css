@@ -85,7 +85,9 @@ p{
 }
 
 #welcome-section{
- max-width: 1500px;
+  width: 80%;
+  max-width: 1500px;
+  height: auto;
   margin: 0 auto;
   padding: 20px;
   background-color: white;
