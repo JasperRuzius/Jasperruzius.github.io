@@ -149,6 +149,19 @@ hr{
   padding: 10px;
   text-align: center;
 }
+
+.projectfoto{
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  item-align: center;
+}
+.projectfoto:hover{
+  transform: translateY(-5px);
+  transition: all 0.3s ease 0s; 
+}
+  
 #socials{
   width: 80%;
   margin: 0 auto;
