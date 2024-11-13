@@ -151,13 +151,14 @@ hr{
 }
 
 .projectfoto{
-  max-width: 200px;
-  max-height: 200px;
-  width: 80%;
+  width: 90%;
   height: auto;
+  padding: 10px;
+  max-height: 200px; 
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  item-align: center;
+  display: block;
+  margin: 0 auto; 
 }
 .projectfoto:hover{
   transform: translateY(-5px);
@@ -245,4 +246,11 @@ footer{
   .button{
     padding: 1px 20px;
      }
+}
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    width: 100%; 
+  }
 }
